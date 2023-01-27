@@ -1,0 +1,93 @@
+:root {
+    --funfont: "Chalkduster";
+    --regfont: "American Typewriter";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    font-family: var(--regfont);
+    gap: 2em;
+    background: linear-gradient(35deg, lightseagreen, lightgreen, aquamarine);
+}
+
+header {
+    background: repeating-linear-gradient(235deg, silver 0%, silver 10%, aqua 10%, aqua 12%);
+    padding: 1em;
+    border-radius: 35% 20% 35% 20%;
+    transform: rotate(-7deg);
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    margin-top: 4em;
+}
+
+#date {
+    position: absolute;
+    top: 4em;
+    right: 1em;
+    padding-right: 12.5em;
+    text-align: right;
+}
+
+#terrible-text {
+    font-family: var(--funfont);
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+figure {
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    margin: 2em auto;
+}
+
+img {
+    object-fit: cover;
+    display: block;
+}
+
+figure * {
+    width: 840px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+figcaption {
+    padding: 10px;
+    text-shadow: 2px 2px 5px silver;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 2em;
+    background: repeating-radial-gradient(whitesmoke, lightblue, silver);
+    border-radius: 50%;
+    margin-top: -25px;
+}
+
+h2 {
+    font-size: 54px;
+    font-family: "Brush Script MT";
+}
+
+
+
